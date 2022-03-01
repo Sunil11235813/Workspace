@@ -1,0 +1,8 @@
+dInitial SHAPE SquareWith Color YellowColor		==>[  SHAPE NAME :	Rectangle 	 SHAPE COLOR : 	yellow ] 
+cInitial SHAPE CircleWith Color YellowColor		==>[  SHAPE NAME :	Triangle 	 SHAPE COLOR : 	yellow ] 
+aInitial SHAPE TriangleWith Color YellowColor		==>[  SHAPE NAME :	Line 	 SHAPE COLOR : 	yellow ] 
+_Initial SHAPE LineWith Color YellowColor		==>[  SHAPE NAME :	Circle 	 SHAPE COLOR : 	yellow ] 
+[Initial SHAPE SquareWith Color RedColor		==>[  SHAPE NAME :	Circle 	 SHAPE COLOR : 	red ] 
+^Initial SHAPE CircleWith Color RedColor		==>[  SHAPE NAME :	Square 	 SHAPE COLOR : 	yellow ] 
+cInitial SHAPE TriangleWith Color RedColor		==>[  SHAPE NAME :	Rectangle 	 SHAPE COLOR : 	yellow ] 
+\Initial SHAPE LineWith Color RedColor		==>[  SHAPE NAME :	Square 	 SHAPE COLOR : 	yellow ] 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.assessment.ColoringService.Application.ColoringServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-01T08:35:43" hostname="Sunils-MacBook-Pro-2.local" time="0.028">
+  <properties/>
+  <testcase name="testColoring()" classname="com.assessment.ColoringService.Application.ColoringServiceApplicationTests" time="0.028"/>
+  <system-out><![CDATA[Initial SHAPE SquareWith Color YellowColor		==>[  SHAPE NAME :	Rectangle 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE CircleWith Color YellowColor		==>[  SHAPE NAME :	Triangle 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE TriangleWith Color YellowColor		==>[  SHAPE NAME :	Line 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE LineWith Color YellowColor		==>[  SHAPE NAME :	Circle 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE SquareWith Color RedColor		==>[  SHAPE NAME :	Circle 	 SHAPE COLOR : 	red ] 
+Initial SHAPE CircleWith Color RedColor		==>[  SHAPE NAME :	Square 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE TriangleWith Color RedColor		==>[  SHAPE NAME :	Rectangle 	 SHAPE COLOR : 	yellow ] 
+Initial SHAPE LineWith Color RedColor		==>[  SHAPE NAME :	Square 	 SHAPE COLOR : 	yellow ] 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
