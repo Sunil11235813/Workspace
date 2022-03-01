@@ -1,22 +1,37 @@
-# Getting Started
+This is an Assessment Shape Editor app that:
 
-### Reference Documentation
-For further reference, please consider the following sections:
+1. Is implemented in Java
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.4/gradle-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.4/gradle-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.4/reference/htmlsingle/#boot-features-developing-web-applications)
+## Getting Started
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Check this project out, cd into the directory and run:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
+    ./gradlew run
 
-### Additional Links
-These additional references should also help you:
+This will start the Shape Editor app in a command-line mode. 
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+## Create a Jar File
+     
+ Clean the project:
+ ```
+    gradle clean 
+```
 
+Build the project:
+ ```
+    gradle build 
+```
+
+Run the project jar:
+```
+java -jar <$ProjectPath>/build/libs/ColoringService-1.0.jar
+```
+## IDEA integration
+
+The Ratpack Gradle plugin has special support for IntelliJ IDEA. To open the project in IDEA, run:
+
+    ./gradlew idea
+
+This will generate a `.ipr` file that you can use to open the project in IDEA.
+
+In the “Run” menu, you will find a run configuration for launching the Shape Editor app from within your IDE.
